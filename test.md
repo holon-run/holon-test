@@ -1,3 +1,3 @@
 # Test
 
-This is a test file added to the repository root.
+这是一个添加到仓库根目录的测试文件。
