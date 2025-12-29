@@ -1,3 +1,3 @@
-# Test
+# 测试
 
-This is a test file for the holon-test repository.
+这是一个 holon-test 仓库的测试文件。
