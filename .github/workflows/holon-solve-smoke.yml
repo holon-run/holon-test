@@ -20,14 +20,14 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  id-token: write
 
 jobs:
   solve:
-    uses: holon-run/holon/.github/workflows/holon-solve.yml@restore-third-party-workflow
+    uses: holon-run/holon/.github/workflows/holon-solve.yml@main
     with:
       ref: ${{ inputs.ref }}
       goal: ${{ inputs.goal }}
       model: ${{ inputs.model }}
       build_from_source: true
-      holon_ref: restore-third-party-workflow
     secrets: inherit
