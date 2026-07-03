@@ -1,0 +1,9 @@
+schema = "holon-index.v1"
+
+[[collections]]
+kind = "agent_templates"
+path = "agent_templates"
+
+[[collections]]
+kind = "skills"
+path = "skills"
