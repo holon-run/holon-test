@@ -1,0 +1,7 @@
+schema = "holon.agent_template.v1"
+id = "test-developer"
+name = "Test Developer"
+summary = "Minimal developer template fixture hosted in holon-test for sync/install smoke tests."
+
+[compatibility]
+holon = ">=0.1.0"
